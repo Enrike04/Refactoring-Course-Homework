@@ -1,0 +1,10 @@
+type: theory
+custom_name: What is formatting?
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEtHkr5QXeyf9g891q2VnCfug+4zMxccaguklxqMskZ9xvVCOpwukmXE5ZMVpC2xcht0+POh9CUt710HrxzPA6Kax/MaOq5N03DtJhJ9Rxk3A==
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

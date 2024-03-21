@@ -1,0 +1,10 @@
+type: theory
+custom_name: Extracting Code - Introduction
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/extracting/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFoVbN9oi9EkdrZkQujBR7IkING877UqsNdwTIKgsscIg+sTPwhg4ucVjaSN79bEent300xESBYZXlajoi8XzHVDIWUZWq+trkstpOY6Q25qw==
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It guarantees bug-free code.
+    is_correct: false
+  - text: It impresses colleagues and managers.
+    is_correct: false
+  - text: It improves the performance of the code.
+    is_correct: false
+  - text: It enhances code readability and maintainability.
+    is_correct: true
+message_incorrect: "Incorrect solution. Explanation: Consistent code formatting helps\
+  \ to improve code readability and maintainability, but it doesn't guarantee that\
+  \ the code is completely free of bugs. Formatting doesn't impact on code performance."
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEtHkr5QXeyf9g891q2VnCfug+4zMxccaguklxqMskZ9xvVCOpwukmXE5ZMVpC2xcht0+POh9CUt710HrxzPA6Kax/MaOq5N03DtJhJ9Rxk3A==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:30:49 UTC"
+record: -1
+selected_options:
+  - 3
+custom_name: What is the primary benefit of following consistent code formatting?
+local_check: true

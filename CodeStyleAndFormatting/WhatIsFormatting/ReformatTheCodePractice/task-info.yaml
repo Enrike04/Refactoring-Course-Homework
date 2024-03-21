@@ -1,0 +1,30 @@
+type: edu
+custom_name: Reformat the code
+files:
+  - name: test/Tests.kt
+    visible: false
+    encrypted_text: S6k+rK91Ju37MSrtt2f4ivAGaMH5ZRW5yeghFsSV3dNM91SrAZW9CsZVmXC3OXpn7DivEkMZq9G+7ZH7Qy6exGjhvmAHyf6KQk2du7Ez83tedJcIQ1GdBDmsmxNoyZFxqwS7t6ARN76elBWhKJ3PTFXeniDEQD8mfCby9jfBh2h7VMTj0YlEing4fkKKP7q01yWjgUVYMnLQMolTBRm0PZPWneGInYBewrQHdbXzE4hhnSniEdwW1ftYXntt21zBor4+2ubNfXMFcM/cJbqnqblUTkXBmpV6CZNgX8Cvo6150d9/kG9/UbXYrXnT2WbEon362xLmpZMxeaEa4mVPNJvu2l7uvPlWzCdFXxeA3YWAtrnDzpsqHkROSQuX+4iwvXJ6Fk5O5OFXEBDk5RP5kVUccA97uZBJrUlikgIn8K38P7cA8g24SGCOy9fZXmsWl8kYvdFf/FWKK9CCSy9RNx2W60TheY8M5ph446AQ2MxQ6sxpfMzzFN2+mD1nUC4Ae3Xa+fv52qb6RBIoxpf3qCAj37lPNUASmowsmJQEwVnmFspUkM/jSAn+A8m76xqLUc2jAhqCfT0PBFOb6xOYRDFujWJ3MY72awOGaAjf4jkvUb2Rn+9TK1DUjBL4FFIh3WONMkWh2xFSG81S9vFsJJu32xzu1wF0I+Qq/ADUk/cvCx/OBt8er5aE0ly3onF3tM26JcCo8VV4us7YXmNlkmkL0EtnNbTt6FGBSslWs8pVyp/aPXVgxTkMy4LSzMUqcPzuLGyGwfJx0G/gTwNIP6WXAoImyo/UBA8rqi1b7oCbz9m5YHGQVDNlapxX/Yrbn19MnjVfiJwCm4R/RuzNT696nv4FgrMGUbYMbNzYGyY6WtnO302X4JlscySVa0yWITYIMg2DDdu1XZPiRqrXSSP1gQWu+uxer+6gZFaxRkch+i1jttFkGc5dVCrBcXs0U4FzNgTjond/skA3NbVzaJt0oQ/glp52IQ/Cdk6PmjjXhoof4QGSCyDA8Qa6ygrJupMg9E8ZHjFprYWzyv7fSt8yCSUfHO7c/PMA6yQqU37J1Q4YH+zhEtuOWW9P3Dd6E3CHvnK9sRT4C+pjqsphuRmvvH5DEkRCs9EvBgRb04fOp35N1oLFHT1EhjVGzKdT2fWfwCbg5aWX1Ma/RyQRf7A+gB5ts8A8SYmWZPD5iyC6OE65/JbHj4DZa277zaxw
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+    visible: true
+    placeholders:
+      - offset: 49
+        length: 101
+        placeholder_text: |-
+          fun funWithLittleFormattingIssues() {
+          println ("This function definitely has formatting issues" )
+          }
+        initial_state:
+          length: 99
+          offset: 49
+        initialized_from_dependency: false
+        encrypted_possible_answer: EKkHDcg/ZbZzsUM2sgK9HnvnMqOWJIxT3Sld2dU5j+MK72uG/oN0aFQthi0EUJJvJNJP3aa0zBOW+RF6sUPm/D08TDYY1qZ8EdB1tQ/STnb6wIIkZ3Xx5ou3kvKM+o5p92+Vy66mMPp+bPokXvayTA==
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEtHkr5QXeyf9g891q2VnCfoWTV1Na5vXAHiL3lPAVFrwR04ZqHS7vwCnu/ThECnsYeu1QDc1jI2V1qtM5vKKLSLMB4giHut+BBEHmiwfb+8S4YsxgBnUm3LCpJ41IF+farlMy/Dn6x4+DRS1oGFDM7Scaed5YrdeUe3KCILYQ8hA==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:32:05 UTC"
+record: -1

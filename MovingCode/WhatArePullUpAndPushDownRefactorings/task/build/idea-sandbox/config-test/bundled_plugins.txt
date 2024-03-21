@@ -1,0 +1,3 @@
+com.intellij|null
+com.intellij.java|null
+org.jetbrains.kotlin|null

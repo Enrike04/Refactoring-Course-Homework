@@ -1,0 +1,26 @@
+type: theory
+custom_name: Factory Method Pattern
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFUvLyUzOSDQBPBqOHstL59WtS3v3lpvj2scQBL4X7bKwBfLauu36w++LR/C+8y/CLDjdRgz9QHfJtmvBUkZjfxZaAU8EJv+/BGaWVZ3RaOHxifq9YKfrJ6UdBV+/xEBEcuRKFOzkwM0yMSkqp207GO0iEWUDnvmP6L7VqdytOxRtpi7U9Xi7yArTCl1rraJ/sAIKBu2fr/Fc6BN9BuS/OyTaVp3wdLHvqg1dyVRB2+6KG/Mi/rJi9qHASuTqVa53W046jrNrjPN5Stl/jOPnIZYlGs/ZSI/0gwIJVnCq/LBJIQDal0Wt0U5XDa4KTsvR0KF0QWtb02sm4LwF/HUc675C8YpC9YYI2hHwUjfjKA4Ht6HHS4fLroDyNqpIBh67xDNZKLhVjCQgI+OnzzzdNJAD355nrVCBd5udAZNvlfB6E9Er92szd60R3A36/1DMigkleJu+A6IFSIQ4EHnFYoEdOGRh+DjiPQgL4qQDHgSA==
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Transport.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cjt14DToV2IJSwSrO1yRezy2rzYtH2dRl+nRWc47el7p8exx1EHqMe/GM7fHTPAD7
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Car.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AF9iNW83wGZ0jKRvCF0pcF4efN0xzHdTmc/dFv1kziJnYoFr/RJa2pZ6VdxnFMWAdRAtpoNIhWS+7u196xBVXaKVNcfIbs+2ygPN9RTux1TNfBpZWyTTHd0sF2b9mKG7kM=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Bicycle.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AF9iNW83wGZ0jKRvCF0pcF4kkWPw/6MxQ9Dai1dUrX3L2MuwQ+L1398V0ZfvxrPNOit/Th/7etRduq8MfwyaDWY9AMIU+6SIHjswFAXqAJzlS+5bcVBxUtX4X2gtMFUOm5UKjzSpcOrjhfZI0bOTJlQ
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/TransportationServiceFactory.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGzdS1VofB9HMBmHNRIKdOMxGFMdgkXO/8aFTJPH972PA==
+    learner_created: false
+status: Solved
+record: 14
+post_submission_on_open: true

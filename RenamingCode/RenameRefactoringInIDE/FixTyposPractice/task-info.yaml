@@ -1,0 +1,94 @@
+type: edu
+custom_name: "Fix typos, change the code to comply with naming rules and camelCase\
+  \ convention"
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Student.kt
+    visible: true
+    placeholders:
+      - offset: 47
+        length: 540
+        placeholder_text: |-
+          class Student(private var name: String, private var age: Int, private var averageScore: Double) {
+          
+              fun getgradestatus(): String {
+                  return when (averageScore) {
+                      in 90.0..100.0 -> "Excellent"
+                      in 80.0..89.99 -> "Good"
+                      in 70.0..79.99 -> "Average"
+                      else -> "Fail"
+                  }
+              }
+          
+              fun SetName(newName: String) {
+                  name = newName
+              }
+          
+              fun setaGe(newAge: Int) {
+                  age = newAge
+              }
+          
+              fun setAvergeScore(newScore: Double) {
+                  averageScore = newScore
+              }
+          }
+        initial_state:
+          length: 539
+          offset: 47
+        initialized_from_dependency: false
+        encrypted_possible_answer: h+2CtXI65OAY4WzefIw2cMENUl7CO5wpZud9i+/XDnDaY/PQa5PHPVXsQXJvlfP1sK79EjRf50wmyT0jrNehmn5I2XRBM67dTaw9d/VLzxSBZzMqXc6sBpvxUnXu5MpUsGGKj8AAcy4BRxActhIZmeFrte22GOrPRm/HKCnoEQNl0HNSe8JX1qT4SqXAElB1uREMti0VDszgv3A3Ue5sdJNi28fhXqjqBoOKdIfkDmAOGhSzSpXTgR4kXw2A2+AX19WibvBl2FmPP/6d8m+DLtNKLFhEIpQZW0uycgKnzyuJnKY1NXHTbLtuV8SmqWSqOu95P3I74j4QFGFgTFFZPWKjA6Q98T4R51UKpIxvkvvnhh3Ia+RkgWT7Ld/zAyxXblPYkPJ6QS5eIKcv2WYgwp644/laqx7S3gui1VRYzl3VcvxrQbNmxFoS6qIfL3bGdTbuFtCUCJGj24nr0nI+o2PRLJig6hXT90xYRuvd51zh5RtNr8NDl2f0DeqNJ5i4sruG5XUjJlEbOu5ub6fpzj2zVw1UK2FUScOgXq2L3fjfvWJKLv8jOdGJh9VXjhMoGL7wt6iw2sf87s0SMo5n89WsGRW4cvXPhnu3JYD9NRzlVwru6kthLHM2PsdRQ4QQiLPcPbF/G2hQR98gL7irbhN8REp61gY0sIxTs0RpNdHEmxUnNjgcB/Weqa9sfclSuY9F2+onbmTXIAmkDRSviw==
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHB1NNjJYsTB3KfM9ZOsvByH7msudGxdcnM4ilAKxwo6CZ6jwSPj5VH13naFgglDZr/qZcmthDNtS5aaa/wIV8OQLVmBg5F5bO56QFl8fTm4Ocqe7GTdwdt08LVke4kQTDaj84j98eLEtBMHroIS9/sS8rdyRz8Cgv7wRCrEzp324z/Zq/ZD1YOq9i0acufiLFGeZ6KaLw+dDFsGcBXxrWAvbKujYyg2H+R3dhoJyfUbHX48rd1LtSMt/HUxqWcW5ZIMAbirVvuEdeyyuje1ESmOJTdVWM/dczd5NWftwZcGk9sVQF70K9wEUp+0xhh3SnxXOSGTR7BCxqbK7GdXkKTTJiWbWxLd6yS5JNRQ/hKQJnDAi72haHBQo/kmwmoE1tVtl/rRHDUoZ/ynlSVHxIuHOv4hpfhi+uMwQTaw6E05F/w3GDzZSL0JTVX5EEn6Rl/5XdDapjoeKM6cJ8U8/OpNKIVyyQ2CQZXiFdyHwsyhXgyfa7q5nHNacBb5YM6AfUGU32PrF1hR7u+goZE0aeFE225y8z4vCTfBikm0qd5ROFKBXss5+bW3yxGYnS00IAzSU7Yi0boWp849YwmMLNLyObJjy/5Ir6970i0IPofR4wWCWLObJg6eRE8H8RzxJNVXAQIQXisiniHybtuKuBTLpny2srr5bN2v7HZU2T7urpwhXy1l4U6mDEBDrB+VeiqxpJx+U8crC1b/zOOvuyLkDgcQ2CIcIS6uOMx3zetww==
+    learner_created: false
+  - name: test/Tests.kt
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+  - name: test/StudentTestClass.kt
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/renaming/University.kt
+    visible: true
+    placeholders:
+      - offset: 47
+        length: 752
+        placeholder_text: |-
+          class University {
+              private val students = mutableListOf<Student>()
+          
+              fun admitStudent(name: String, age: Int, averageScore: Double) {
+                  val student = Student(name, age, averageScore)
+                  students.add(student)
+              }
+          
+              fun updateStudentInfo(index: Int, newName: String, newAge: Int, newScore: Double) {
+                  if (index >= 0 && index < students.size) {
+                      val student = students[index]
+                      student.SetName(newName)
+                      student.setaGe(newAge)
+                      student.setAvergeScore(newScore)
+                  }
+              }
+          
+              fun getStudentGradeStatus(index: Int): String {
+                  if (index >= 0 && index < students.size) {
+                      return students[index].getgradestatus()
+                  }
+                  return "Invalid index"
+              }
+          }
+        initial_state:
+          length: 751
+          offset: 47
+        initialized_from_dependency: false
+        encrypted_possible_answer: U0ntWB1jEO7NGWsRn2i/3KinvTYtuFnJb5f+peGKGjj9ZvGby/B2L2qeInOLVKohP6xUJPHd6fj9bUIhp2VS4LWU2R1O20B56jUJa4doUbgAk4TruOksT/aHJbM9H+D7t+oXeDQmkD6lpjdHBP02uu+TjrGUQs2R+cxUqOzwG/NG1XlfVOI20wlGqJi/lpUffQ5Qn8fzMbvgAIA5GDqslMXpZT4EFuOgghF4II6GFWKUI9Am3UuQIjDusFj0dDzEGdEQDcOUXizkh8AfmvTg0vUD/o3p1wJX0dwxFZncXH2pqCYraMzK4xw7R/sa/jj5c5070UOhGiiW/xT8ws9xA7u4sRJv5VcIDcLk7YX4NGqtDcNTAWmWUNy9Frpw1ZSQ7yHVXiTiM4FG1t2ilDfvKvENCyPlFq5DxBCLfYnm796JUA2FbkZA8svDbpDNwMdZi1G95uk9YQ5RSq3rHrLkQEiGudByuxn5UvX+LRxfZECazN/t0brxHR/+WjSZvc5DiQCkTe4chcWAtouotRV72xZps0oYmCVaPqmXFPiZCPn/BU/XHXnkTZqvD+fq1hDzc26UaEyIl/bGjso3LDDeU+nd/Sojeywac+uGgimV5l2HqWP2kHzH1p2oS7/ZznVZng9DYhhXQr2Zz4DdnxK+j2bqVNTGaEMejx6HjAHo/DefCvU4uFyS0INTXIepUy7y2Y3Ml5ZausiDo4Sli8CpNOAnsc6et3a3qcTkBvMVi+rYaJknucjADVBfl6EhYR9jqYpF0EoqmCO6QaqMw2tWuubd5ka3jn4yOnTLoQ1fmzSCtbcChmnjalZx/QO8kCpQ/tSWaG1g/utORx05A+dW4gLcrbHOaN6Nuk2OyQIF6syvk6IQiTX1S81YWhRdeyaOT3vq+LuAJ6YDkz/0oZe1oDn6sFsLuhajva5eqwj2OBD/mRqIRWCLvJG7XAY1Mjr2vkWwZMM5GzjT/bFhcW2c5/f6sDJ0jbc0WRFWtySplRUDx0HN/aAc3xZgd7iAjSMI
+        selected: false
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHB1NNjJYsTB3KfM9ZOsvByzWEovGWMd5+9WA/R/NZAUS2Kqcr3MUtKzSDk9rXDNx72ofCxZjTLTMgsE/+B95B/ukLCeXB2DvzwWssybGaouwaMAUgv13rEA/dfQVvLEKSdCX5tdcfzus6NdCAVmGIKP8UfdvlOtVATGHEzyvbuKjPngA/CJgDjY1lrOImDohN2LEkv/inU/+espDst7pJAk8kmu1ILGag4l/8RiVFaVFWEC6T+Wlaxz/aRJ/WHbMNdsQnlPejriW/RkXGU9Aaj0AQsLWzrLBhAYufyDDI8TCeb3vxTlTVe597cloj4k84QQcBdNh/HEN5mIE2vvsSTnpnLiQAgx71tS7q5suunnadpl/YtZxcAcq0c1tpf0MOxQ9z08b1MvFwcKFOPGkZmVA/KrhxBjaXkTYHmqZr+s+fEZpuaXMT1ZSQHwcSPXiVmvS/sDfQrk9gW9Ghjh1nUm0rJoKTRUZzbd1pb+hTkmFfoVZEco07l5k7ovc/PoSJgHpFMsEEBTp7p1mE0s308VaBSYKxFvWG0heGEypi4FG78H7NXTxvZdVmLdFDS/eLuDZtd5t1dAdRqr3R5Qmm0vyMFLHjXaJmkHLpG/d57vj1meXJ619/fBpXR0XXwapq7EsphqN3ZQ68Nu5+0VO7f3sQSpoqOpfix1RhkKHlO8WVsbxYsqZ4MiKkUQRY91wX4FnvTyJFcf2V2EDId5ISxIMM7/iw5qSa6uIIFFFKGwMoUfj7+uq146NkOHx6rb4LYZ4gB8CMC5bnx8b77svNQsISepElrmqvS4hveZcn8VzyA2doTJ6FUjowrxBxaE9kVTEvKv0XEzhWeFElQKLYTEHP75sAfxhgCgLp7AxBPVROWjtOsJo/Z/VZ0HRO7GhY71J4M1xJuXq9WlRv5JLX7zHeL+rZyCBO4MmQUyVPmi4B4S0uMbHnEYIgY0o2Ym/QLMzgE8oVCGpVGIfFafpCE+I71K2eVkmmidgJnb8K/pisf0VF9nx3Z0Ek1NQrsNrk=
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:59:56 UTC"
+record: -1

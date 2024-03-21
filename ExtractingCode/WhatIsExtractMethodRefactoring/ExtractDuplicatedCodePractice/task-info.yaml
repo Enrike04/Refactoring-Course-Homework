@@ -1,0 +1,47 @@
+type: edu
+custom_name: Extract duplicated code
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/extracting/Task.kt
+    visible: true
+    placeholders:
+      - offset: 107
+        length: 503
+        placeholder_text: |-
+          fun wordCount(fileName: String): Int {
+              val file = File(fileName)
+              if (!file.exists() || !file.isFile) {
+                  throw FileNotFoundException()
+              }
+              var wordCount = 0
+              file.forEachLine { line ->
+                  wordCount += line.split("\\s+".toRegex()).count()
+              }
+              return wordCount
+          }
+          
+          fun copyFile(srcName: String, destName: String) {
+              val file = File(srcName)
+              val to = File(destName)
+              if (!file.exists() || !file.isFile) {
+                  throw FileNotFoundException()
+              }
+              file.copyTo(to)
+          }
+        initial_state:
+          length: 510
+          offset: 107
+        initialized_from_dependency: false
+        encrypted_possible_answer: B4ZdT8OFC6BMPTvIDY6RA6zDPKQK+DYpiLZkyOS0bwF9/a2qfECvT+MjqP9ntXPIZ/Imv9K8PXRsaiR1g/j2NjAR44D59R2G8bEuOtWs+pQpNLblVsg9xusrC5AA70shc44UjW9KVbL33PVkvrq6UdLnUUqHBerYdGtTlChcCyP2OyaF5muXDcpsArC+EK2tAHVAncCYEnXu+YOEIYcfb1a6dOU8M5Ye9osjhhoQOAP768s5nauooNZhFdM62hzX81KB0giEN3UBW5lq5rm0OfsAFQyRr5XqT/bgmSeCqjCAuH1QJEsgkHNIaKs1lC2f1/HG5/NcIfI58FbFPjWRoObR3vXrBptYkDk7Ga4amvCDntblfRSpgWs0IJ7UpXaCVWTEV5A/fL73gSAPWDfgeinW1TUsv9IP4gL33r1k9qq0cyfMmsgug0q7tUAGCqjMLKSsDE2upep7Nyw43vihPqMM9dDYmEQUeDn3Hc9jptzi9lWWrFVQ5YP7Flegv6NV4nFnGZ+HHbpIiXr682dm9U+OygtFVcpBDwfuvVbYV4XjLaAiZI0/YE8uDXmj/D1efUHUo4/ua8jypJ3Dm1H8tcZUwJFbqtlWvBKFIbCZbbRkwIjQN8juZa7gR+qS4AEO5B9BRFLpaD2Nn04ysFVm6lqw39fkfiDzzjbv1mswFpc=
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFoVbN9oi9EkdrZkQujBR7IKOmKeaW4zsWN2s4B9Bovy2yRM+KPjmuDiCoEqjEH/Yq/5+YeSuW5AmUNury91ARprrqrNl3FzIF9VlWFAVr/T00Ay76GMdLqH+ZxkUiQdW9WV9OO3adkvfE0YmfT4+yPZylLQk+G5kGeDOSiYtjxpiFHDhmcUiLCBT1c8D1gqHSVbGRyV2DBaWq00mtX3nSjBxC+ugj9X8qI7F+gq+MnzoVpAM9qwWBbHJb8V3s7gnEbNW7JHfskzWN031UMeA9NDx4vc7sQGuo7DtG+/QP/7fJzBhkNlZbig5I3TzfNIigMNU4Z1ZAPDxGN8qsX2+JbxvdkOBWaKCk2OmCPhsegSqfrGCWrVsqXdbf7mHG/5jGrKpuD2/tuxPKwL5r0WW48kLDzT4HlD8chHuqlZbQJ3lkrCVZjFTXpuKH06lKgOBfMevGrfjW/eu4H1MMRUFqTRhD5EHr3rAotIn/2VeJhRxjFLoS67vdJ8a8ZFgaFISclfBVytRhJjHf+aMKX78Ijh4nl1BRSKjY2Lha3n5IPjWDeMZUHmY1rFcCHPJHo8hayZopM6U9Kd0IAuQVKJeg6mg3hAv8eBz7Qx1rcdZ9gZK3lwIogwIV19pYZz0hW1QM/62Y3gYVpZhnIRp8qq9M0C5iysmHA2cIBS3lsTAjcmBiF5KUKcV95JPDlTX1eG7woOA+Ijis0mCDFkqQP0ur7ZWPkSxTSmPzD4abZJfYrIg1PN7WxpwxFcs1U4/12EAR1lAWILxCCvt/bttUPBpfd
+    learner_created: false
+  - name: test/Tests.kt
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 17:43:15 UTC"
+record: -1

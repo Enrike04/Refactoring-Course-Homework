@@ -1,0 +1,18 @@
+type: theory
+custom_name: What is Move refactoring?
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/moving/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHmyoclmwZvlFoxVAUYEjeYg0g6rVMcq8PjySQKZioyie7GprCFFi5aA4B9LE8eInpYHFTVyVIlsH4Ca2rTZPzwxCCM0pUYX/wEMVz2kXYN8Tkku0VGzCYxyfYdfbHIwjMo+806wdrSreQGRQizsVc2rPC8rHETYdS0MtjP8VKp0GrxxlYxWpNP5pRkSRHk5WfQKIW9AliUvpnHdCVRCUKoXRq0tE7DxJghZl0D9lybr4B6to4BownTAO/hOtt9PPhkWNHihhQbIMzwD5HRJkc2RqtiQmDQcI9BP2+g7IVqk3gBALJOCiOT4bpj52STIk4N+hentD/ccw3ruKAFgz6QY6AiFmZi86iIP5Y8cVsrn95pgZTx1rtQZqGuCaxDqBbcrLC/XDrFkNZ0lyWptznWo2XFdNLKZHSze4jhR2wBS8kBKn6h6vwC9ESfRM+eXNv2U9UzYip3BQa4XKMf+ykNCRLQiF0BuZQbpGJhMeP+4SKh4plWq1mubVEdpw9E9ZAB0sJrZT3wVXiB7RsiG+EKNmSJvFkXPUrzlzUWwPVsVTgjl7LosuKFgSiP3HZEBJbJ05yW92vfgh6clGYTi47oYIq/d4w/KqGLX0SrKPk38fhWn1eEtjgkA7ymeCFv8GteVkxQn+WOdfjbw3PcwcmzsPXcS/30DQpKwdX+bNlaaokdY7UmcvS6L9DHeyk6R3AQIQmAlVsyjZxiafDoCSKPe/PtHnQbvuzLD5IuqL2FM/f8dw/mJZUhoQdMLSildiDoyqZFH0wKYse5F1LpQkLcywJ4KF4HpKf5fbsmitg/gS5aDdP9AyUoFtIju7EmyqbfD9NO/F0Afw/mzRh2YErp2ewYn1ZZYClZANLeaRZ9GPrG3ID0johjAxQP2jt/VLWAsq1kqXPSI5Dc+Ett/WHxi95qmftn7PB/C+a1B4kltl2F6ET8KE8xrwtK92YFv9YqM1DhRfPaO0VpD0qxOTIX8q7XD9gR5EKnyi8UbHethk/Trjc5VjJDsuhgHOF1hBJpSC4XMvqQFSaJHahvhvWSMDDhbEiyFE5a4q6Rnso0301rIBVol0XvhhNk6SYySCD6QucdJxki/Ztqso0JPN/tvFIg+UD0rLJlyo0B0vkLyTk58/ZbQ1BD7QVKDV8uizno8TeuP9AB9vu3UmhA1rOY6xkjqoqb0ruMhe5tv/SxLv5aiS8Uqu87lIhL3s2imqv8HVvQtOlC8Ooq62myg9/vKXu6zvHq0nXhUjlPnWvzRg==
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/moving/car/Car.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEhkqEDEYIFjRXqSDGR5JGmIK8GyhpbE9m+BeOgM2lQXg==
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/moving/driver/Driver.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AF7VgH7SCLkz+Dueir71q3FuPcFv+ytvplN1UPfaZq06w==
+    learner_created: false
+status: Solved
+record: 4
+post_submission_on_open: true

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PushDownTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-03-21T17:37:09" hostname="RIKOBAZUKI" time="2.884">
+  <properties/>
+  <testcase name="catClassTest()" classname="PushDownTest" time="0.287"/>
+  <testcase name="animalClassTest()" classname="PushDownTest" time="0.002"/>
+  <testcase name="dogClassTest()" classname="PushDownTest" time="0.005"/>
+  <testcase name="testPushDownBarkMethod()" classname="PushDownTest" time="2.401"/>
+  <testcase name="testPushDownMeowMethod()" classname="PushDownTest" time="0.188"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

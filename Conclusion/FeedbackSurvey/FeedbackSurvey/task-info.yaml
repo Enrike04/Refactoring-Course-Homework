@@ -1,0 +1,10 @@
+type: theory
+custom_name: Feedback survey
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/conclusion/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGw4FwPrKJ7qzFoUUZUDVrrs++zXjEPJtv/HX/QoIjVKA4m67OEWWZqFHDDPY4JWg1tgRrJ+kHkFknzjpXQoQ9P+GO5Owxkfj2dJdmgLyfxkQ==
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

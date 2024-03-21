@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Calculate_value
+    is_correct: false
+  - text: foo
+    is_correct: false
+  - text: Class1
+    is_correct: false
+  - text: fetchUserRecords
+    is_correct: true
+message_incorrect: "Incorrect solution. Explanation: The option \"Calculate_value\"\
+  \ doesnt follow camelCase style. \"foo\" and \"Class1\" options don't convey any\
+  \ information about the purpose of the element. The \"fetchUserRecords\" option\
+  \ uses camelCase and provides a clear description of the code element's purpose."
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGQNf5gdkRkVEaaSVow5vkYqIMm2gs+FkHawjvUV1QHPb6aGWm+5dUcPG5EQflPrT9M+ERTO8Ob9ulwixbWokup
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:55:21 UTC"
+record: -1
+selected_options:
+  - 3
+custom_name: Which of the following code element names demonstrates good naming practice?
+local_check: true

@@ -1,0 +1,39 @@
+type: edu
+custom_name: Identify code issues and fix them
+files:
+  - name: test/IdentifyIssuesInCodeSnippetTest.kt
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/refactoring/purpose/Task.kt
+    visible: true
+    placeholders:
+      - offset: 58
+        length: 120
+        placeholder_text: |-
+          fun calculate_area(l: Double, w: Double): Double {
+              val length = l
+              val width = w
+          
+              val result = length * width
+          
+              return result
+          }
+          
+          fun main() {
+              calculate_area(5.0, 8.0)
+          }
+        initial_state:
+          length: 186
+          offset: 58
+        initialized_from_dependency: false
+        encrypted_possible_answer: o2Y2eZTxDpEhpAkM5glk8zjx3/etyDMkULP8aJ249pnZk9IXeSr78rUtdQx+FwWTTBPcIb79aGhXciqTupUCqSFveE4hC8yXd15EVmAfPFTIa+kTxMFuwSgkz+PqQLhjlxeA1fBpfx81oc2+a+aPlWxVPhouA3NIjBfSj46mOmI=
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHp5N0NX5CwzD8RQIzp2F8YIVklb2/MXfDg6bIQxji3z+mKfoO8PZX8j5mC+kPA4LqV269ZGWulb8YPZi+6NwDNq7FtHnJpZyfynUddlUHUHqNwzs7aNXEG4Ttd6BFsCatzXTNg17LdKp2xWtbJ/R06JbtntD531yEA5DjnNq9tG2rQUUbBUtEvFY3Hz3AWMyBkksHza+YcfLobVfxfTyAsA1rmZMPCfVrqw1t4DfIXoH6yFOu+pbWNlxVXpoSWumQW2M1lk5PJBqG/p9z8hHt3ie+78XGrf/uOH88rMMmfKg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:10:04 UTC"
+record: -1

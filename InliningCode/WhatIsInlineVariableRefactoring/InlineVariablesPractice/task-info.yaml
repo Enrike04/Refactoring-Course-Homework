@@ -1,0 +1,35 @@
+type: edu
+custom_name: Practice
+files:
+  - name: test/Tests.kt
+    visible: false
+    encrypted_text: S6k+rK91Ju37MSrtt2f4ivAGaMH5ZRW5yeghFsSV3dNdFg5WDI5o5gjiI7u3RMvk0xm45iVblPB1YeVMNsbKi+O9zxr7h3+q3DPMTSk/4JzaNZoubrmP4s3K5F0QHDfWvbrBbdgInOZrxYNnqOW8GumI4QSU3D62neUEVc27VcaTO/o+hYEdA15ydU49/rZmMYCmHcqigOwfpiAG549uaHOgQt0kbxTqF7vysu3bOZN671pKcYEEtjcnTTPucupKj9rdpZiSQmPYXDpC4l4TfS8JkYIdVenA05DkhbL5hSZiGYamphwm8un2bmPwiEBHH+7q23cah97JcqAzR/uwCwHk6FtR2EByV+ZLRPLCQ7R/4F1+1bzFfJ45X6FW2rAY5Jf4mDdSay/uglRAk5LO2O6e3ftsXBre3LDzZR351lmgNYyzwAsmQ6DEmnp2NNyLmlJGslnRGLrucbtpyUmZemPu6hmmx9pnMVct/xTq0yhMTsFAJ81BpEUZAUHoKN+AFMGazzWB3ZlW4Oyo52vi57CVkafNbpxduFi06dZy5mQzR4Zw2x3eaLyZIvtiiQlz0/+t7AnPsHzpYYks2j2e3XyPIQa4ayuT5K1XBWC4Sd8L8ooY4KBKJBlLoeVgU+YX/tdSn4PbbdBxYMPM7f80yvbPpHL+lIKBfmv7CWHAxamPagD9m8xhdTR1KJq0X7QMHBQEjjDCdFrUvWtNqsXxF6drceRkfifntdnVOuFFEEf7LBocG9yVEGiEHuhR67XkhDwkc6ViPURgWfDDUrFxmQWX6E1IPok5OGBsOUONtSPO6DCgGTqCfEXJrQ1NEzFicyV1u+NDvVBDL7sJ4O9Hqq/b/DlwdhkDRh/FAreuAEgmRTqgfC2y1UH/D3ntzdAWh1rpAZS53RG1Jc16c+QBFhn6g11nWzlFU89pXmcp55p3Za30z6p/bgF9avGFxdv0+VC1xGtxoJL4GL7BrItAAj7B5MNvEFTEsdsYGBLo/R1U9fBoTOc9FIUBZyhZNv20K2yAYXDFEBDdR939CBcE3v4ObpA771jRuNUK7QfbUPsyRHIGWx/dJJI4w14bXwMHSh3KfVQ2pOD5KE0k1ytp7KD2PfiEqkVcKrlHVvIutSjMdj377lWm4VOpgGpQDkTgCZYSAXjB79OKJtH3BHwptbu2SX3eGoeYCVLFVmYVbXZZwUxifAKyiuHJyRXeMvoHJB4tskx0A7NBR7pQGaoq33eDVxlds9xrBWbfatj8bEsqwFqj2ApA/1RNuT6DF2f9EKSFH2Ur14WT6xp2AKZZF7fS67DnVPON72R9uWbJE4Ur9fSMD+4tx/pbE6G5CYzGrKCsV998ttDfqLNrOmpNW12aEGLvQuCecXGACLWkxgI=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
+    visible: true
+    placeholders:
+      - offset: 128
+        length: 205
+        placeholder_text: |-
+          fun readFileContent(path: String): String {
+                  val fileExists = File(path).exists()
+                  if (!fileExists) {
+                      throw FileNotFoundException("File not found at path: $path")
+                  }
+                  val content = File(path).readText()
+                  return content
+              }
+        initial_state:
+          length: 271
+          offset: 128
+        initialized_from_dependency: false
+        encrypted_possible_answer: U2C4jvQxo5jb148x36n3OvH/JttfO9zxDdIJaC1G43r+ppmn2ZcuVfDw0wLVIqYqlruKLR5JJMD+A8eIJjub4e3RibfZ8c4ibwCgCvTKYr5MCxDv2+0UJ5k01HODwAt55WZgr+vZeALpSHgQ9J9bhNt6dwxorayD25DvgvaEUGdQb4nCOZ7OYbw6DHrnlGcS/4d32A/SauTU4FZGp5jjruAkYHt1ZSWr9gUCa3QAfi3dtqjl342QaDAFsPZhKytAgsRZSkzsRJHGsTPfEZVi6w==
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGQbMvaEzrOGJsEbKUlSeEBOTEyAHpQ6hvuG2jwkgXemXZ9fwTUeA0qUPinims+VDJstjA+95g/28EAT5Fl89ZCOQgt1zEASs5G7ZyxI559AGlWX7frI/oY3fUJbyD1/Q6ibjCc+zTCISXSFKZm9rwwQ5flrDNXlQnzwQourBG1bYiRs4+UWaH36WFTrk4ei1YmXsrnwtXAjNyF7WHBJyctfwuFAR4QveEsxpItzcFMvZWdicOwjFVbSGFXgEZTz6e2UqGVAZbZ6q5yJFBL1Wx6DwJuTgAdlTLm7jGKJzawWO1tK+qH072ESTW7rxAFaRxE17xA3TcxAGWciv74953aNOb895jvIKyGRxdE9eiO9Ilqzc3gwwwEQ8XQDae0fLEr6RTHYmBvmXVaLGak9u2JBvvB7gsCj0Nq15WTbN/x4ZxGs2efs/CWwz4whJY+2rZL66O09XsbM0hD1qjBBYz8kF7vB16vCBqh2bqmJ4e3tM34s91wcCvfBxsgaoRc2vk=
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 18:00:37 UTC"
+record: -1

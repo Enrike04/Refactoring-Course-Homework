@@ -1,0 +1,18 @@
+type: theory
+custom_name: What are Pull Up and Push Down refactorings?
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/moving/Animal.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFjTAhHQOEyVn46gkYGS8edePCyc3uN5RUS2vPIlEBYlD690x4PPLjufsYElC+GmfRje5I6/7H5zvRqGiyIpPDiG57jwqSlWvRmt18ooy15PlrQQ19ZFoY5PQG3+ca/dqjJFMmoz2n8ufKGIZBEqnRN
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/moving/Cat.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHmyoclmwZvlFoxVAUYEjeY1Lxg7iavkmA9otkxhzb3gPLNqlPYK2emsqA/vH55+sJXiK3X7Hh1e7urn8QWaoV5HehWIfgpjq86Odfn9AYWN5/4fnLQyVJmpPPJ5RhJD6UxEG5tVyuKhPtEOmXGINSKeXnTCJNkL6mKf1HRyHHT7Nl6BzGCbxzv0gXyxRV5xGd2XLjLGKj4/1ZQWEDdeqFqntK0E0tEkpT0gEs6CCB/EB0bM/msuU3W5+/VFCgpocrDcu+mc2FA0+iGs4nwhBn6ss0EbbYeIZkuYC3RSq3ILsrMFj7CyBd/GkFg1LsGyMV5gJNBJ6MqlOS11q/XMznlrKFUIoVudYxg7Z+iqvCVMm0g3gJT44mzhf9C8v8GO51KrzMpHiw7ALQxbnP0LUNdw2N793mB4NdRB7Ll/UQcOW5ohGjRbOR8zKdocxazlASSr2V3l98sa9f0S0FALaJHXk4JILtrjCvzl5ThhEwkfcgi0b205jnGWGaVDOK9dZyTQTiHMsOBTB5AiW1pgbZVTJrD5wlWa97+KefMo7Ff7NMmEshlATo+hhXqa9jxbwMvfZsPGhDt5pvpouuNPm+SJkH+l09CmESOEDh6T/9SKA==
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/moving/Dog.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHmyoclmwZvlFoxVAUYEjeYAC/gS8gwPYDPoOmIXE8f7W56wrElBhgB41fv5ip2hvHQp5Bz0SofrmZaqR+Xryk9x8zjQKSQTR9IcCKyRKqx0+i6xxzIbfNIi5Q5zuFIipo/LncXuX7cxXRhDUwHdZY5wWlUhogCI+iDXUUKL4yROBt/8DdXNpCB+fMWyWRbZti03Cgm92AFItJdlX5NhRkmcuUG6WILUezpWhNTwq5XY03bSKUrbgcJ7JYQ/aE3hNOViz9WBGNBQfyV/jhAJ5yscI/i0KaWxUaAGvbRaWM4d47JsYj7LhZ35cEICsyGGuGd5ThO3ocUsLF4N8k6h1LT06qiwR1w25mJciqk/3Rb1+txP6sXeWPPrKLrdNEyZK6ZRjxnBAZ3iyOdk2bbHkyrxT7Avu7/1CZwYtLUp+79Y4a65lCPzNxG2SCd/gRvanbDg5Gks7LaeYmKkgE8E5H6uMQYtvTQIjmKg/4W07VFFdvCsTTVs73/f0GFPpFK4YAx0fowY3AE1Wu10jzC3ASiIMHyIyM7u9bZ+TgAKqKbZQMlCed1UpLk4WXTTG2rVHmOchRGGYa5MVCb+WdR2UivOJfDYv9pKIEv9y+jROXDIg==
+    learner_created: false
+status: Solved
+record: 7
+post_submission_on_open: true

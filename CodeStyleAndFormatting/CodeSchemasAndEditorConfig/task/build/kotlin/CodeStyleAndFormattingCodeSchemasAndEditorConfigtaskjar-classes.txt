@@ -1,0 +1,1 @@
+C:\Users\riki_\IdeaProjects\Introduction to IDE Code Refactoring in Kotlin\CodeStyleAndFormatting\CodeSchemasAndEditorConfig\task\build\classes\kotlin\main\jetbrains\refactoring\course\formatting\TaskKt.class

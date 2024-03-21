@@ -1,0 +1,10 @@
+type: theory
+custom_name: Inline Method refactoring
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGPCd1h7fYhZQx7N0qmLW75B3yXxkGf3pHgsnueCEsyZ8UaMNDn4HSTv+aPT+sl5rQPonxJmdgHoMcz4zTFSLxk
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

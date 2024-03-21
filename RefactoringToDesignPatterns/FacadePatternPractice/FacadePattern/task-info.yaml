@@ -1,0 +1,42 @@
+type: theory
+custom_name: Facade Pattern
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFUvLyUzOSDQBPBqOHstL59WtS3v3lpvj2scQBL4X7bKwBfLauu36w++LR/C+8y/CJS46pPjUXFFqLARJCMKcoxr1O0cVC9acSmZYziZHW2Tl/S2R6d8LFqKsQWWwwpNhEvFmBtOAV/0abIDeD9hbzcysrFkTVuFY84BrKMEZzyD5v5U1RRiybkXAu6z2dBmRWi80amvct7tNJIF9pOsBX/FBPpV0HQCbLTBivtFEhil8xUZ2GeFMdzCkCXy0gKZo0xSm7d6RI9Oq8j2nA9Nx9/Cxu4VkCVw+paQ0goaG0fRiaU/UFfUGDgW+8PcKh/Z5wFDoyOG1cW/clGu73jPvYmckp+NQV8P5rgkkE0EgBRWj/D4CSzneN/Ch5akkTcF+v5Lw1kgRvTiQq+TCOOOSUHFsdlZq0EbmiJdiT56Cs/JUg7kadeyalqCzfyva/F/inGhPYm+PktPR0JsNaYiy4DgeEy5xbhEiZ9dE2k+uNclivc6BeQGDn00UEUDyTit8Tzc3j7e/S1ohIvrj8m01Jk8iDvZgTC7biIMlwPM4E0VPeXG10bFQdMHtv92aYSTOwN6iqzr+A8aa+heUWA7+t1D+J/68dshHd1eEPsnzeIOq1if9k7PcNgY4QYkkJdfKXVr3461QlCte2Mdo/yxzPubxeOVa6ytp35eJHkq7imXqlxMzYefEzF7vgIpgcGZkE=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoLoader.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cJ2wXKPhnIOPvOF2XoHAL8JZWbZCXz9hgieNXMPvjNIz6fR50B4HoGjfEzqY/LG/DPwpW/0NGdnrNDKHlTSCkBvD9yEgjYehRk63main1pmxRojqrUEBjaSQKMJ7LybfWwA+5YOD8tpMZtCJd7DFNGfLYRdX1jmQI3UwDD8G1NebkeYR8Fp+Y3CICqFakYZPrD9xRczyJUy4sVd9S9jPJ0Jo4OVpQo8MVIruZYC15bEyK6SRLi+vesnb0UgKfUtrRbZX26HXaY2xSm8A6zDXbUA==
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoProcessor.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cJ2wXKPhnIOPvOF2XoHAL8JZWbZCXz9hgieNXMPvjNIz6fR50B4HoGjfEzqY/LG/DIuss4gIgAP4UI89t0GuV8vDQVXPGB+rrCZRUO1EViKcfgvr/I+8yPdSvhHze+shBqkebkaevtNfuCrNSYiz5wCfXgmDizwSeQ687yp8KRuB9jaW6WnNktaA65DTR0Nfi2m6Pqt2qvgeuDwtmve1SpZLx430K8Ivz2fmKa4rC4Fvum+s0CZmyCm0xAIWh1vD4G1UKd09/px8qD3Rey6z7PorsGBM3VNx5N2+CAP6Zv/DDKrC9TwhnrvGIaZzoFsZto0985vgxq+N+Ae59MgCYJ45esqlzETSxHtK5o7F8iQg=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoEncoder.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cJ2wXKPhnIOPvOF2XoHAL8JZWbZCXz9hgieNXMPvjNIz6fR50B4HoGjfEzqY/LG/Dlqvi0m9ppZCrr2qGhlqEOMCkzAi6Xmj+PNdOvDNx+yiUASdwBOK5r/c3EvHoXgvCzMVbafxa2SyBfh2zHizTnauqwWu4fqElgTuPFPplOdOTZOwFUE5aywifpBuPNA2Jm/YlmSFzgVkxtuJAB9vwPg40k2NuWRbxAJUb4405VXYSEjZRYlejeXXFNbvN8j+pa9j79R/wFNYuxzKkCNj7PAz5hj8q2UVU25K7BDc+HndU0h6rhfdz57QULfBIQ4RvTm2X3RMBy5bEpWQ8CeTJPJFnLKL/38tYzBoI6PAPz7KXxhM+RBnKuWN784zj7q6p
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoSaver.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cJ2wXKPhnIOPvOF2XoHAL8JZWbZCXz9hgieNXMPvjNIz6fR50B4HoGjfEzqY/LG/D0no894ysRwx1ZzJU9lfUKGQ58MPTIQoitkm8qwKm3IpzGZggFFiLloKLLTTydwWh3WzgMfSw8Is7aeypGhirZX754eZHGke+Hee2tGTmymc2PcAHP+E03vC6cDs5gQHyn3jUbvJHPXVQSps6Ry57HIJSs4Ys/tIuA2jegEn5rsK1MgembewxcOrJapsF2nKYezCfyPiMR4BRIRGwCr+yL3lJsJcIhkBdtxpXH+6tDUg=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoConversionFacade.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGzdS1VofB9HMBmHNRIKdOMxGFMdgkXO/8aFTJPH972PA==
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/video/Video.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEANVYuXJuhm58dq9TnQyyTFCGzvftAfQ+gEl70xGVaz36PRqhHL0mgmnDmc+17bpg=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/video/ProcessedVideo.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEANVYuXJuhm58dq9TnQyyTvOz84qXFbLQkmPLkUaXdcSdeOyIzYsqAwabjfrXb0w0=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/video/EncodedVideo.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEANVYuXJuhm58dq9TnQyyT0wvhqw56a551ML7TQSpqPtaWMdvdmUw2RE9850iA/Dc=
+    learner_created: false
+status: Solved
+record: 10
+post_submission_on_open: true

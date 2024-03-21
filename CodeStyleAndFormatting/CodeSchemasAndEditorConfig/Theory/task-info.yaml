@@ -1,0 +1,14 @@
+type: theory
+custom_name: Code schemas and EditorConfig
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEtHkr5QXeyf9g891q2VnCfochNsk+7Mp2a5syfl7v0BeFDf1TpoIluq55QMQZYUXhVNPJLFWC+FqhOxx8GK5b7SAX/JF9c1LN4mUBcfVZYZYNxN2eKf76JNqSjIrtRbPvt3igs0vR/nJ9kEc81FWxwdMIibJZQnCJzoHtpxrZ4OMqDeyC6euo1REsBRkSvK18y546KfmlhO6b53xg+28aEb9bQArWFjKybTmOAEizKb4BX+r0DZj5mV7FhAi2fYUX1zWyGgj1FngAioToqNY94NWbEpMVs965stkQudJDb+kqq8Yc4AIExkH6/ByqjK8s=
+    learner_created: false
+  - name: .editorconfig
+    visible: true
+    encrypted_text: GWLjALCp3tssMZ1LsIGz6Qw16lF+xmy0w/QtmEfViDc=
+    learner_created: false
+status: Solved
+record: 1
+post_submission_on_open: true

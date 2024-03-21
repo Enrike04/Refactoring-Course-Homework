@@ -1,0 +1,10 @@
+type: theory
+custom_name: Renaming Code - Introduction
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGQNf5gdkRkVEaaSVow5vkYqIMm2gs+FkHawjvUV1QHPb6aGWm+5dUcPG5EQflPrT9M+ERTO8Ob9ulwixbWokup
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

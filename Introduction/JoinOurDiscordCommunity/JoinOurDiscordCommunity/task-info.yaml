@@ -1,0 +1,10 @@
+type: theory
+custom_name: Join our Discord community
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/introduction/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AHqi5cddjmYbMen4Ky2Rhv9jNzSDEfit9/NwkMzwmoKjuZWiS+UpXvb5rRz2SRdqKZt4CD7kE9sBKtM7QvKoLM6J3YSBXVar0aZgXTwJuHfZw==
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,9 @@
+type: theory
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFUvLyUzOSDQBPBqOHstL59DuO7cOi2iTIruMs0JY4AnHtBQnFJmOvowEfVzl+Gw50ZeDdEh4jiXMuJmSyJx0UC
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

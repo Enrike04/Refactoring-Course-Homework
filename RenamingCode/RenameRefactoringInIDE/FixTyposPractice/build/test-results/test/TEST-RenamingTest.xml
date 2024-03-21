@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RenamingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-03-21T16:59:53" hostname="RIKOBAZUKI" time="2.91">
+  <properties/>
+  <testcase name="testRenamingMethodNames()" classname="RenamingTest" time="2.669"/>
+  <testcase name="studentClassTest()" classname="RenamingTest" time="0.037"/>
+  <testcase name="test()" classname="RenamingTest" time="0.203"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+type: theory
+custom_name: Strategy Pattern
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cG+mCs9ZKS4KVdQUCI3GuHQKH6ezajkjAB7n9oqiwWRLT46h+PKwLYFKYX1S+fXeJ3es1K/M1WSj/g2um9cruS6BhO3wQ5Ynsp6OeYKkUp+CLSs/I+NieTf4yIjjKrlkewGk0mUmsg7cTrJBH1ORVzgs5eqH1LS/589vWn3aoLe6OFHYtfFv8/qdBK1opA6LbJivOwich0SVYxiNWOiw2/+Z0Ghy3NtalYPq7IQV7PMHTsoiH7Twm9Njscujx1kX77WtGg9UWHZg95kPLr0G2QjRtpmiWgqkMpFn4HKQjjxOwhQvjT4eAUjMR2BH6pMxspt7JRpyzGOexiliD8zH9y5Y69QKaz+Aex2reXOIr68s78mIStAVR/dixfN2WKDXp0r3fE9LMjnrFW1sQXuNCRck8Plrz3VcuN6UbP/BcaSFZLNFW0xWK6BHpj8kPScK/
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/Order.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFZ8sTcJWdT0dfPsUwvxI8cG+mCs9ZKS4KVdQUCI3GuHVrWIk8GBbWAUgx9SH3qK7jLNCQ5fObbiwbGSKYBQHggNak58STz4PlKmeiMqFxUo3EHbdkmgSKk+cpQtJpJwghxX2jKjzunjWdF03GOkN3Qfh8LaytphfEuRtXy4uUyWtew8x1qV/ag7msnMlQ3iw8H9juRJHwG4GoVlcOmyT9bqMaM1PVMxmaYE6WJEJ3nwTowdHQwq+NIDSGZQS6qT7vUbS80PyFLGm3TFoEEwZYx0dSP6yVWeacgFjsW0GqijUsRkF7zDDTw/y2C49ydHP/GYyEvvgaoqTrXzw0jnH8yv1KmkcFFpZTjsxqP9DYbWZtvcHZG+rYqETg2Vfg8BIJKHCcsz8OhyNVvQ1Qp82PYIVnHAxfx9NWIhohQtkgxGzhQlAlcghJ/okmlHjA32xlJ15wzAhB9pwbGb4AxWla35BDBFObP0TSUZtzYSqftoNSku7bC7scdMw1XOF6qJ/oz1xAMUfq2P8oMUxr/aMp4HqED6JxpADP39AgVyK9id1PNTz7yJUu5gP/Z/buygNStNCNO905eAbvhjWvnnYgMk3+IA6VCZfTLscrQ60y5aPL6wljOQZhF2z1uRi+bD93YVSR4zHHLWgH3duTWTcKsfKCA8gqb2oPCHJdboItXqUEtZLT1CzhAG4NWjrrVUovbVhYinKfQd6MVGIC7Q+y+5brPYDz18cNk6AYhE2zJjbihxnlBJegUVA8iaXbnKXey/FV9PY9cYZyZouoNQ3JMKk5AB6N0R+TYPqiVeGyFvvZeudFAjNIpd6cMW1dpP59TVZheKH2zayOK4lqsxH5d
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/processor/PaymentProcessor.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AFQ788iqckbIl0FcV0L1ogsFKw4Ckye2l6rGQi+ew7JGz8ytwx7WcNGdF8izCnCh1c=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/PayPalPayment.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AH2V1Qoi6gm4RTaa72ZMVp5DwNghktfpY1/EGOTLI6MXDY3xoBU7LUiSM+PiSoDlxI=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/BitcoinPayment.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AH2V1Qoi6gm4RTaa72ZMVp5DwNghktfpY1/EGOTLI6MXDY3xoBU7LUiSM+PiSoDlxI=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/PaymentStrategy.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AH2V1Qoi6gm4RTaa72ZMVp5DwNghktfpY1/EGOTLI6MXDY3xoBU7LUiSM+PiSoDlxI=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/CreditCardPayment.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AH2V1Qoi6gm4RTaa72ZMVp5DwNghktfpY1/EGOTLI6MXDY3xoBU7LUiSM+PiSoDlxI=
+    learner_created: false
+status: Solved
+record: 12
+post_submission_on_open: true

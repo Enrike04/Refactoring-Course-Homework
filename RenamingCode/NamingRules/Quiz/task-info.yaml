@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Short and cryptic, leaving room for interpretation."
+    is_correct: false
+  - text: "Descriptive, unambiguous, and reflects what the code does."
+    is_correct: true
+  - text: Unrelated to the functionality of the code element.
+    is_correct: false
+  - text: Similar to names of other code elements in the project.
+    is_correct: false
+message_incorrect: "Incorrect solution. Explanation: A good name is one that provides\
+  \ clear information about the code element's purpose and behavior, enhancing code\
+  \ readability and understanding."
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
+    visible: true
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGQNf5gdkRkVEaaSVow5vkYqIMm2gs+FkHawjvUV1QHPb6aGWm+5dUcPG5EQflPrT9M+ERTO8Ob9ulwixbWokup
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:53:03 UTC"
+record: -1
+selected_options:
+  - 1
+local_check: true

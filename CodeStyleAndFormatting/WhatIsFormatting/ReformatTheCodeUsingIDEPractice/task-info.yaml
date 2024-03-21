@@ -1,0 +1,36 @@
+type: edu
+custom_name: Reformat the code using IDE
+files:
+  - name: test/Tests.kt
+    visible: false
+    encrypted_text: S6k+rK91Ju37MSrtt2f4ivAGaMH5ZRW5yeghFsSV3dNM91SrAZW9CsZVmXC3OXpn7DivEkMZq9G+7ZH7Qy6exGjhvmAHyf6KQk2du7Ez83tedJcIQ1GdBDmsmxNoyZFxqwS7t6ARN76elBWhKJ3PTFXeniDEQD8mfCby9jfBh2jjaw0ptD8LpAl4Iy4XSQDSm57O8WH6b4I8pxGfaQFp/SHmP2jw1kHKm33zk8AieBB3i1UvHOeQvozfdGli4Y0sF1qERkSsMlAM+2K3WHIIa6aYdR8ZFgPaWcQoAL8UhUcUwWV0e68QoWGEc1nwKRncz2ONOo5FsVKzWkwi0bPZf2b7qcFBQgcRemt7+3kkBQP6hski6hmmxbOMjXveJCw1u/a2p2PMukqCk6pC04KoKq28FfH7oQuRzcX9dFT92FDJMZFqeYpOQMD3d1KWA96Z026fTgVl1hgT2r/GDtMBnLzf5YaJqyL4RdQrmo+O1YBKOI2JQ6xnzJ003M/NFF+cGBLt4ktKmXkmGD5X5/L7Y+fPQrR6UQOlYF7pJyPnIUUo/c0eNyxCkD5CHTHaqRROjlHr6ac/25lSA+JXlNfmi0rFaHU+gq86GcTPbyYpJP8bsQpS98FDwMgI0aJ0YgjaZ1VTDL/p6DynjLOhCaNf9b7b5Z0GabLDsAzPbM8bKL/gh8DR9MMikMuBBn3qd3Qa7bCxp4fa+nlF4d3zjblCHWaAC0c/HBBNIDw4GzLmk5UeV9GC4to6NnuiNY7L2Wh3pfzEA9rVZGAvgezWM/1VjkMFPQzIHsWxWPtRwJyxkN5xLkwujGZscl9w0NxNlw8TEWBFDTnkcI7G64rZjcMjFFmea/5WD1lMR7aIBlDeZMmoGhCwB0UEMMiNKSFGNYsZzuqyotZcT+N49XQk9IPEEgUKMJg8/e15WuubU4zvacwWqRHyHCqR4WnkZ6+D9RxbT0LNvAvjNJ6Mh6QjsrX3PwqWUmI0WZOxyLpWJOIGglNXinD2KBpZ0QIA7mOP+HVZpRy2RiQls8doIfC+N0MHU7kG6U+20aH5pN6KGMvAn8pf1MnXdlSBlZL2cv0PudkGJYBmLvbuHjHEF3g98Kw1jFUOgrP7MmlkZXY93rY4Zj4HGqvlk7UR7ka1xtQYagLg1VYBBfD8gP4SfmuD/KuQfzjJJueCqemECClzNjuIshf68t5nsFi/WgMaMoqAVm3GWRC+rbW313P6eG7QPpy1oW/vaK8socJkflPfcLzvN7f0CeBJjLW4sD0kkGCIQJ3ZsUobENKCzlPt1UzHPhxTGIWjQ5Lymyg4ueI5TRKil1HQZ9SwZTUNKe23niNZ9KZk1V5Qyrbn573DKS4LfX7Yk/FWWlmTlr5sb07Bpwm7hLKXCcgRhbPxz5xstvz9apHvdakXMzKuuTMbaYraIKVzZZx6K9z8fwYFrBwbZiqTpb3nIrapqbAc0qFOKAJxNRQGqPte9aKF/tQxwtCj94HPdjdY7x1MCPf8OVM7tpcKWrJqAzOM/ZsiOGKoUHdALFOqQ5ipKRxjJhOAVzxSbBVM6Qi1s8bZmmR3uiMOC1R0ju0=
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+    visible: true
+    placeholders:
+      - offset: 49
+        length: 227
+        placeholder_text: |-
+          import java.io.File
+          
+          fun funWithFormattingIssues() {
+                println ("This function definitely has formatting issues" )
+              println( "... that could be easily fixed using one shortcut")
+              for ( i in 1 ..10) {
+            println("Please, format me!")
+              }
+          }
+        initial_state:
+          length: 249
+          offset: 49
+        initialized_from_dependency: false
+        encrypted_possible_answer: dc6Ql+fVSkSZ81DLXeSFm8z8lWwXygEMDd895PI4PGKOSu3qHDNJApv2GO9UfE7x31EqLKZj144Whyy/siIErtz1bwmHm+/qWkrY07C1X8J9B0+IaY1MdAgdhPCvfs+KXSm2RSDfxxrkVaA/Ef8UjoX6GxfpThn8XFESq3+RXRP630aFE7RrPJcbt46jf+OKKYStP/vfhiLBalSq93jplVOKU7O1RWNNMU1h6LqWmxCGMlodOcMUq2rJajKb3KbLz/+DWrzN4QuOlMafRdRRFE7H/UdFXTMrDx7fqOI92glQRndL+ANJWkMDTe+uYVST
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AEtHkr5QXeyf9g891q2VnCfPhz5gNZbnRcqq/hOl3D084YswMh4t14th1Bf/dcI9aNwaMvOa9LqvyCVUJJWeW5wxHSBYvNxic91HxD3Zr83Pg5+DmBnSmAlsISZe29rq7Qg196zY+UJsB4VBJ0cz0MRSpLPWsdv1fO8H0WBOE16i6P5VY02bshjPk0PNQFlLJkvOFf4leURjZUNVO7kxrSf1bL6OZrHKKGE7XvQHPJSNQCHr5fVbvRod2+rgfjtZq1VAS5hBJXCG7B2FrZCvjeJGbhK2KTHhaePD8u41A5Hx4LrWOR5lBmp1rY2HED54n9R48CTGmCdYrgI4bbJTTBEepGQvrFyiFFBdbZDAX2YYg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 16:37:16 UTC"
+record: -1

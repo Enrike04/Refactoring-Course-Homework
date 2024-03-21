@@ -1,0 +1,42 @@
+type: edu
+custom_name: Inline methods and variables
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
+    visible: true
+    placeholders:
+      - offset: 113
+        length: 267
+        placeholder_text: |-
+          fun calculateTotalPrice(productPrice: List<Int>): Int? {
+                  return try {
+                      val totalPrice = productPrice.sum()
+                      totalPrice
+                  } catch (error: Exception) {
+                      logError(error, "Exception.txt")
+                      null
+                  }
+              }
+          
+              private fun logError(error: Exception, filePath: String) {
+                  val file = File(filePath)
+                  val text = error
+                  PrintWriter(file, Charsets.UTF_8).use { it.print(text) }
+              }
+        initial_state:
+          length: 457
+          offset: 113
+        initialized_from_dependency: false
+        encrypted_possible_answer: H6nuSwFvwEdzy6TIXh7w9HbwdrdQMnyBMaPzeH7T5/Msu6Mg65x2g104IHWLvWLS66iKFahsBxl/FCzGHYV9I4g4XDkksSn9VxrPa5V86QBUhiJktzyoRze99RHwn+dXZwH4Uzd7Cx8DcRYzdgfWaQj1JwA254ENZMI+q2K1qfEpMoUA02GzWqLDWF6KzdGlWgF3SPPygpvBe3aLxRSnzv3NHVh9tlF7Kx93RcIKVr0ywcd1uVP0rSSBpZE0liSQbjhcf/XvFvaDYoyqHgenczYQw1MlwQTHfI4PAnTmtVO3CXI71ikTu6kt4cp5+lH6hijF/otnoA72AtwOx5YnUvj7tXpcm0gy6e6gLNIC9lU=
+        selected: true
+        status: Solved
+    encrypted_text: T5CIWZyBkzMy2sgbGt4RBroF3/76Hg0R6j0eFYMa/AGQbMvaEzrOGJsEbKUlSeEBOTEyAHpQ6hvuG2jwkgXemXZ9fwTUeA0qUPinims+VDJM8lvAORzYS1AIrvG6rmP1UYetPs/L/eDAeHVej92qqaMPQVBPh/RNgXzWgPu0LXDIO1wnXgz6B/PGwxjEIxf/LzuWK/NPEkCQq1I4STjOJjq1133+mDKs+Ct3boOBIpBNsc+Z99lAM5hy118PyvtzZeTP6c7tA01Hbali64GJnTnVvssF4pXnDaeIngSkny7mNKxl721JCGXzP4sDTY51qWm1YYRn7emvt0dlMrL0d96aN1ryqwi2sHSB21j1MtzqskwJYTj++cQhsPqhZ1V9O8Ml4Bcl0hZeYjtlyUgNDAgHQf0zd/2dAvnG67QDaM93UDxrw37Cqs4zb7VMWtW+LaZ/g034SuqL+gCmw9m7EL+sbucOz/JWzJIv2SI3SScJiTWHtUWe0/FMoe7D/fFAiM4vtuEbdW4FBtGyNjIoD8sktcjsjSoBayO71YVDH2PUU9GOZj/I1gIa2NVeyopBFjRVlWYPAkHIaaEw3hMKQNP8gxTckg7nK0XQN8FMhA3Cooba5eFkYnQX0dFJHZdbZ8PHWR5yn8MSIuq5Rk+2W06ec4lFkO0hLpg1O9lHKbm/imKneHcswaQxHv4uSBOFVl8ac1oEIeq3gMmIPgVmslLMckEMx1TSVjjxkNk3GFo331bzSh1hT3z2WcnaW3sKxoQVybxUAD0xdroZe5hZF4pKPo8DS2eubnt1FT/mtQ/5TjVSRGvxpIgAzA70m5ZCNG7vUogAzZFVnU6tx4P9DUZeNwGssfwKcN75mrQ2HgO1vGKj19iWHlMk+zfcvTOyjex7nrzIrMJB2y9nqWk39w/IUYBrCeuFwOmx1AEPogs=
+    learner_created: false
+  - name: test/Tests.kt
+    visible: false
+    encrypted_text: S6k+rK91Ju37MSrtt2f4ivAGaMH5ZRW5yeghFsSV3dNdFg5WDI5o5gjiI7u3RMvk0xm45iVblPB1YeVMNsbKi+O9zxr7h3+q3DPMTSk/4JzaNZoubrmP4s3K5F0QHDfWevRi6LT4xrCxWAPUtmQLa2ZgU4DqlQ2GFttJ566AFc6gBgjdLCcC04DUmboEIGoPf5wLVeGzYEQFpGRdwcWVqcwfOZ75i3VYk1OPJwxIGbcxWTTg7m27nfIE26R/JVwKkbCQCe99Ig1PCqMcOUvxSJYqahoX6ZYHTUmJmJyBL/PRaR49kVIsXXrQsb8ccJ4PosWhCHDLLVECRpLo4qxvt6yiW9HhMfJgWmAe354RJcj4GLzREzcl29x2KNRKGUFatt52Nt5WP6KYCtFHU9F2Ge1TE3GQDbcM98+8v7pMTuyn++Arkl2xQ7cWI5csXqHnV66dIXM+QYSusoudn4mN+TFHD222kL0zQQfNXyEbM+Fw0Mom+nCb8xPlEpGKKOtCXTGJkREYemyq+PFZ/dQp25esgJehhde2HG0TIxdrg+Jfk6GO0t+GWYIr7cxN6iYFLMtOg4le9HBG9ctBFyBnhln+ifya6BycwwqQpirhZKecDApwShxeRc/OA6iAneAa8oEns2o3ZI4Whb2d2LEWfICLrRyeXGwR89qYEGK0aAZJIRKvMklBdHnlq8PgjLAinvNS8jxFrAuON0u6Wl5H0eGPan8Xg4UmKuXs210zFho1XvLFKG1uDL/vr0tfFQNKjd9Sa38QCyaqNizKTjAPQwxFzfS4PlNwjEZajqizU3vY/+N8CQCGYjXSweAnrXNRqiBWLRkaVkZWlfXp4ZpeaREZR6EyMfJu+INc4Rxo5U/ROXNJOctrY5PwyywZCGEfyB78ODSmW6bcwbs4qKaYA5390GJobwf8Ro0JU16qAW1FHeAHYrOXZ5NhyrHJ1k6W/0VpzDjp2sHHzbp7E+x1Qz2ypt9rPg7cQ/5pI+OiPgxBfmZuppI59MUPOhTWgOEg6ypTcqZ2WZ4blsprF5XEErhEpL6kyIvYKdvf6sw+3bfM7NfWl6RjU4PTP9sNRRaWZRf5Z+9NNi8i8ltBoQ8Y4CxZyO/LB/W6TU2CtK5V+LwV/dxVUqg0RVNydmxtYLPh3d/Wal7e3lTd+4hFd0kxb4HU1NX1geRBzuz+B+5jS5L8MA3IZrsr+8isOvd+IlXNZv0AszoI17lOz47PSCtBk4YRnsTo/1zZuskS207568wwXP3dwHSyzUz4T4/MtXO0rGb6waOh76FUkTr5716rYmDKc7Khoy3ANIBwkJpNuPEXdCENZLV914m4dCmqeV9uQ+yP2a41TsbmMTDEYTNYjiq/Bb6+g/UiEXLRWvWhClLWPITZkdiN5HwrdOunPuZdtoTBguLP1jz8vFu0iwtD3Kk1/tTViAR4OXL/5usPMZ05Len8iiDOBxuopbliBx4/5OLpYlorjO/ZqIF+WNItnpLBki2+3XlEeO5sezVglKIR576xwevcVnC9ivdnIwopm5gFo9+2uak9TfduE17hW61ByXS5/eRiohugPQb2osvKXgCzW09pRaON9yXPTWTRqjgHUUk7pMja1bXU4xjcq7Nw8b1mdaCv0GvPRx/dRsVFfEPvXwjd0LUmW0el0r1jQBZCN+qtbHryiQK4zfMx/cxu7dJWSEsgpZRc+VwaSghVdvvBygpBLxuUFcECWNDmzHp8ThMw8ITf1YloviHkQrATCwcrM+aVSrIoWlDXcZCYYVhQnZeRqsEPb8VNjNa1mWr4z38Pn0tIm+Quoslh1UzXPlhtqIbvCl3SuRjBgACB2EJ1DQOOJGQM+tOGyVsTtm6Yh3R9uD1/LCcNjaW5DnRcRe5LExCV9lD0N9OceZ7m7L6DHtLYJOaHpJlJ+lkUpuGuOZYXzEx1ZnZxhaLBTYs5WiY27Lpr3yJgNdz1ltSxIxHqWXt90GoH2n3xDNNzFGIbOSoE0qZ/5stuXxgEJJIdd3IRZ3iE7ERR3jWt3Px1AyfJzX8FM592rEWfnwpkGEvbJUzockfES9ylnru/6zMDaZvymss4ztrq4xCzjnKJ5ChbUysEmtYZ4oGA+K+6bB98bdtxgnxLvcV6w++RbWocTX/WYrQiysiYBlRk1AX0k5kbgHE2qOyC0onyvlZUhHkNkJBZCh3K3z1wU1DDidX9QoSgFy7oZJFrdrsW58F3NDEuhi8easRgW9YKXb/FQW1cUEF7xGgCJC+Vd2nUXOHi7P/39qWCbyCF9bh0VoZANdXMwPnZTDoI7jF8A9Z6PfFAleDdTTsScsYrMRhItK3FNsR7QB8IUPQPLKAou5IUhWAYamIH07vwvsi/YP/7GNl+k5l5MHIw5Y0VDwa59lK1gCW360bK5ZWZ36Qwyv9V75J3oweEL+UyF7A+vUE/A6ZjX6/J1n+zo2jOGowU5do4N6AcSpRRn9SDiyslruL8ymXjmr7zTQBSJ6NZcr+r3v9G/ee5TdHukgbukS5Lyg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 21 Mar 2024 18:44:44 UTC"
+record: -1

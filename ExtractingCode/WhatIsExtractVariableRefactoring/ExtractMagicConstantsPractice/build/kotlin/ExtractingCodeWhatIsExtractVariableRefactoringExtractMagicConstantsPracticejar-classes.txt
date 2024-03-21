@@ -1,0 +1,1 @@
+C:\Users\riki_\IdeaProjects\Introduction to IDE Code Refactoring in Kotlin\ExtractingCode\WhatIsExtractVariableRefactoring\ExtractMagicConstantsPractice\build\classes\kotlin\main\jetbrains\refactoring\course\extracting\TaskKt.class
